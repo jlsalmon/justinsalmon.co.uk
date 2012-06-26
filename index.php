@@ -4,8 +4,9 @@
 
     <head>
         <title>justinsalmon.co.uk</title>
-        <meta name="description" content="website description" />
-        <meta name="keywords" content="website keywords, website keywords" />
+
+        <meta name="description" content="Justin Salmon's personal website" />
+        <meta name="keywords" content="justin salmon" />
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
@@ -26,17 +27,17 @@
         <div id="main">
             <div id="header">
                 <div id="logo">
-                    <h1>justinsalmon<a href="#">.co.uk</a></h1>
+                    <h1>justinsalmon<a href="index.php">.co.uk</a></h1>
                     <div class="slogan">:(){ :|:& };:</div>
                 </div>
                 <div id="menubar">
                     <ul id="menu">
-                        <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="examples.html">Examples</a></li>
-                        <li><a href="page.html">A Page</a></li>
-                        <li><a href="another_page.html">Another Page</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li class="current"><a href="index.php">Home</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="projects">Projects</a></li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="cv">CV</a></li>
+                        <li><a href="about">About Me</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,17 +73,46 @@
                 </div>
                 <div id="content">
 
+                    <!--------------------------->
                     <h1>Welcome to my website</h1>
-                    <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under a <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which means that you are free to download and use it for anything you want (including modifying and amending it).</p>
-                    <h2>Browser Compatibility</h2>
+
+                    <p>
+                        Hello, and welcome to justinsalmon.co.uk. It's always under construction, as I'm always fiddling and adding
+                        new stuff to it. At some point I'll probably integrate it into some kind of CMS, but for now it's static all
+                        the way.
+                    </p>
+
+                    <p>
+                        This standards compliant, simple, fixed width website template is released as an 'open source' design (under a 
+                        <a href="http://creativecommons.org/licenses/by/3.0">Creative Commons Attribution 3.0 Licence</a>), which 
+                        means that you are free to download and use it for anything you want (including modifying and amending it).
+                    </p>
+
+                    <h2>Links</h2>
+                    
+                    <p>
+                        GitHub: <a href="http://github.com/jussy">github.com/jussy</a>
+                    </p>
+                    <p>
+                        Facebook: <a href="http://facebook.com/jussylewis">facebook.com/jussylewis</a>
+                    </p>
+                    <p>
+                        Twitter: <a href="http://twitter.com/jussylewis__">twitter.com/jussylewis__</a>
+                    </p>
+                    <p>
+                        LinkedIn: <a href="http://www.linkedin.com/pub/justin-lewis-salmon/47/203/111">linkedin.com/justin-lewis-salmon</a>
+                    </p>
+                    <!--------------------------->
 
                 </div>
             </div>
             <div id="footer">
-                <p>copyright &copy; Justin Salmon 
+                <p>
+                    copyright &copy; Justin Salmon 
                     | <a href="http://validator.w3.org/check?uri=referer">html5</a> 
                     | <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a> 
-                    | <a href="http://html5webtemplates.co.uk">thanks</a></p>
+                    | <a href="http://html5webtemplates.co.uk">thanks</a>
+                </p>
             </div>
         </div>
     </body>
